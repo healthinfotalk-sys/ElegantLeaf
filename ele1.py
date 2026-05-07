@@ -246,7 +246,7 @@ if st.session_state.cart:
 
         st.subheader("📱 Pay Using UPI")
 
-        upi_id = "yourupiid@oksbi"
+        upi_id = "bmukherjee2k7@oksbi"
 
         upi_link = (
             f"upi://pay?"
