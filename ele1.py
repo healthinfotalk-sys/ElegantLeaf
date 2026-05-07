@@ -376,8 +376,8 @@ if st.session_state.cart:
             table_data.append([
                 r["Product Name"],
                 r["Quantity"],
-                f"₹{r['Price']}",
-                f"₹{r['Total']}"
+                f"{r['Price']}",
+                f"{r['Total']}"
             ])
 
         # GRAND TOTAL
@@ -385,7 +385,7 @@ if st.session_state.cart:
             "",
             "",
             "Grand Total",
-            f"₹{grand_total}"
+            f"{grand_total}"
         ])
 
         table = Table(table_data)
@@ -406,7 +406,7 @@ if st.session_state.cart:
         # THANK YOU NOTE
         elements.append(
             Paragraph(
-                "Thank you for shopping with Elegant Leaf 🌿",
+                "Thank you for shopping with Elegant Leaf ",
                 styles["Normal"]
             )
         )
